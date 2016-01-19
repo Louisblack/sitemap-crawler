@@ -1,0 +1,15 @@
+{
+  "name": "sitemap-crawler",
+  "version": "1.0.0",
+  "description": "A utility for crawling sitemaps and reporting dead links",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Louisblack",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.67.0",
+    "xml2js": "^0.4.16"
+  }
+}
