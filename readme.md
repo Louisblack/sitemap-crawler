@@ -3,4 +3,10 @@ The site I was working on has a generated site map. The way that the site map is
 
 Because writing code is much more fun than manually checking each page I hacked together this module.
 
-I'll hopefully spend some time cleaning it up, adding tests, linting and a CLI at some point... 
+I'll hopefully spend some time cleaning it up, adding tests, linting and a CLI at some point...
+
+## To do
+* Make testable
+* Proper output - don't use console
+* Tests
+* Stricter linting
