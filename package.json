@@ -4,7 +4,7 @@
   "description": "A utility for crawling sitemaps and reporting dead links",
   "main": "index.js",
   "scripts": {
-    "test": "node node_modules/jasmine/bin/jasmine.js"
+    "test": "node node_modules/jasmine/bin/jasmine.js && node node_modules/eslint/bin/eslint.js **/*.js"
   },
   "author": "Louisblack",
   "license": "ISC",
@@ -14,6 +14,7 @@
     "xml2js": "^0.4.16"
   },
   "devDependencies": {
+    "eslint": "^1.10.3",
     "jasmine": "^2.4.1"
   }
 }
